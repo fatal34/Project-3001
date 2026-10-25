@@ -1,0 +1,141 @@
+........................................................................ [ 73%]
+..........................                                               [100%]
+- Generated html report: file:///Users/lachlanelliott/Desktop/MMA3001_dataset2_project/tmp/clean_copy/reports/test_report.html -
+98 passed in 9.60s
+Method selection on the chronological validation block
+Frozen selected method: linear; validation scores {'previous': 12.080908322605387, 'linear': 10.467583927436491, 'pchip': 10.899642773292177}
+Final evaluation: test
+Final evaluation: secondary
+Controlled scalar/vectorised implementation comparison
+{
+  "selected": "linear",
+  "validation_scores": {
+    "previous": 12.080908322605387,
+    "linear": 10.467583927436491,
+    "pchip": 10.899642773292177
+  },
+  "test_metrics": [
+    {
+      "partition": "test",
+      "method": "previous",
+      "missing_count": 1,
+      "windows": 102,
+      "hidden_readings": 102,
+      "mae": 8.186274509803921,
+      "rmse": 10.35686757095759,
+      "max_abs_error": 26.0,
+      "bias": -1.2058823529411766
+    },
+    {
+      "partition": "test",
+      "method": "linear",
+      "missing_count": 1,
+      "windows": 102,
+      "hidden_readings": 102,
+      "mae": 7.8436433495745215,
+      "rmse": 9.611660860382218,
+      "max_abs_error": 29.011656952539568,
+      "bias": -0.5687583273471537
+    },
+    {
+      "partition": "test",
+      "method": "pchip",
+      "missing_count": 1,
+      "windows": 102,
+      "hidden_readings": 102,
+      "mae": 8.029734436156273,
+      "rmse": 9.857476368763699,
+      "max_abs_error": 29.017485424768495,
+      "bias": -0.5679604169427033
+    },
+    {
+      "partition": "test",
+      "method": "previous",
+      "missing_count": 3,
+      "windows": 70,
+      "hidden_readings": 210,
+      "mae": 8.609523809523807,
+      "rmse": 10.616249898375694,
+      "max_abs_error": 33.0,
+      "bias": -0.6952380952380952
+    },
+    {
+      "partition": "test",
+      "method": "linear",
+      "missing_count": 3,
+      "windows": 70,
+      "hidden_readings": 210,
+      "mae": 7.397657617875133,
+      "rmse": 9.173018023195965,
+      "max_abs_error": 23.5,
+      "bias": -1.1667560971010535
+    },
+    {
+      "partition": "test",
+      "method": "pchip",
+      "missing_count": 3,
+      "windows": 70,
+      "hidden_readings": 210,
+      "mae": 7.830856443072726,
+      "rmse": 9.686020030687082,
+      "max_abs_error": 27.117559523809575,
+      "bias": -1.2280870342036543
+    },
+    {
+      "partition": "test",
+      "method": "previous",
+      "missing_count": 6,
+      "windows": 22,
+      "hidden_readings": 132,
+      "mae": 8.674242424242424,
+      "rmse": 10.695156082842532,
+      "max_abs_error": 28.0,
+      "bias": -0.022727272727272787
+    },
+    {
+      "partition": "test",
+      "method": "linear",
+      "missing_count": 6,
+      "windows": 22,
+      "hidden_readings": 132,
+      "mae": 7.085237098749097,
+      "rmse": 8.806198997902252,
+      "max_abs_error": 35.71459176386577,
+      "bias": 0.2499280478693076
+    },
+    {
+      "partition": "test",
+      "method": "pchip",
+      "missing_count": 6,
+      "windows": 22,
+      "hidden_readings": 132,
+      "mae": 7.471380484654371,
+      "rmse": 9.179411622961007,
+      "max_abs_error": 36.635226364657626,
+      "bias": 0.23690814967093854
+    }
+  ],
+  "vectorization_speedup": 60.32383503272743
+}
+{
+  "method": "linear",
+  "observed": 8,
+  "reconstructed": 6,
+  "unfilled": 0
+}
+Matplotlib is building the font cache; this may take a moment.
+Saved five scientific PNG/PDF figure pairs
+/Users/lachlanelliott/Desktop/MMA3001_dataset2_project/tmp/clean_copy/docs/html/index.html
+/Users/lachlanelliott/Desktop/MMA3001_dataset2_project/tmp/clean_copy/reports/MMA3001_Dataset2_technical_report.pdf: 9 main-content pages plus1references page
+{
+  "workflow_exit_code": 0,
+  "selected_method": "linear",
+  "metric_rows_checked": 27,
+  "maximum_numerical_difference": 0.0,
+  "numerical_tolerance": 1e-09,
+  "demo_byte_identical": true,
+  "fresh_timings_location": "tmp/reproduced_results",
+  "submitted_timings_preserved": true,
+  "raw_source_reaudit_performed": false
+}
+Full workflow complete. Submitted timing evidence is preserved.

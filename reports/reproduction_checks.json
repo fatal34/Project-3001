@@ -1,0 +1,23 @@
+{
+  "workflow_exit_code": 0,
+  "selected_method": "linear",
+  "metric_rows_checked": 27,
+  "maximum_numerical_difference": 0.0,
+  "numerical_tolerance": 1e-09,
+  "demo_byte_identical": true,
+  "fresh_timings_location": "tmp/reproduced_results",
+  "submitted_timings_preserved": true,
+  "raw_source_reaudit_performed": false,
+  "tested_commit": "6ea7615",
+  "fresh_environment_suite_seconds": 17.968,
+  "clean_clone_suite_seconds": 9.587,
+  "test_checks": 98,
+  "failures_errors_skips": 0,
+  "full_raw_preparation_byte_identical": true,
+  "preserved_files_checked": [
+    "results/summary.json",
+    "results/profile.txt",
+    "results/tables/optimisation.csv"
+  ],
+  "github_upload_performed": false
+}
