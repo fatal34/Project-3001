@@ -21,8 +21,6 @@ The separate, unmapped secondary sensor exposes a limit: at six hidden readings,
 | Prepared data and complete source audit | [data/prepared](data/prepared), [data_audit](data_audit) |
 | Frozen choice, metrics and scientific figures | [results](results), [study protocol](notes/study_protocol.md) |
 | Editable slides, PDF handout, script and walkthrough | [presentation](presentation) |
-| Manual GitHub instructions | [docs/github_upload_guide.md](docs/github_upload_guide.md) |
-| Rubric map, learning and interview preparation | [docs/rubric_compliance.md](docs/rubric_compliance.md), [notes](notes) |
 
 ## Install and reproduce
 
