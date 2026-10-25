@@ -1,0 +1,18 @@
+{
+  "primary_sensor_id": "6012002000869",
+  "secondary_sensor_id": "6012002000326",
+  "development_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "missing_counts": [1, 3, 6],
+  "context_points_each_side": 4,
+  "start_stride_observations": 12,
+  "maximum_observed_step_s": 900.0,
+  "methods": ["previous", "linear", "pchip"],
+  "selection_metric": "mean over gap sizes of pooled validation RMSE in ppm",
+  "relative_tie_tolerance": 0.01,
+  "simplicity_order": ["previous", "linear", "pchip"],
+  "secondary_min_unix_time_s": 1735689600,
+  "secondary_scope": "all qualifying windows after 1 January 2025 UTC, evaluated after primary validation selection",
+  "evaluation_mode": "retrospective interpolation with observations before and after each artificial gap",
+  "policy_frozen_before_results": true
+}

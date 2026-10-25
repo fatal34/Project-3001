@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mma3001-dataset2-sensor-reconstruction"
+version = "1.0.0"
+description = "Audited offline reconstruction of building CO2 sensor gaps"
+requires-python = ">=3.12"
+dependencies = ["numpy==2.3.5", "scipy==1.18.1", "pandas==2.2.3", "openpyxl==3.1.5"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
