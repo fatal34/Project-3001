@@ -1,0 +1,488 @@
+{
+  "selected_method": "linear",
+  "validation_macro_rmse_ppm": {
+    "previous": 12.080908322605387,
+    "linear": 10.467583927436491,
+    "pchip": 10.899642773292177
+  },
+  "partitions": {
+    "development": {
+      "observations": 8280,
+      "start_utc": "2024-02-29T06:04:56+00:00",
+      "end_utc": "2024-05-03T14:55:23+00:00"
+    },
+    "validation": {
+      "observations": 2760,
+      "start_utc": "2024-05-03T15:15:23+00:00",
+      "end_utc": "2024-05-24T06:05:37+00:00"
+    },
+    "test": {
+      "observations": 2760,
+      "start_utc": "2024-05-24T06:15:37+00:00",
+      "end_utc": "2024-06-13T17:45:44+00:00"
+    },
+    "secondary": {
+      "observations": 29038,
+      "start_utc": "2025-09-07T10:09:30+00:00",
+      "end_utc": "2026-04-22T13:12:41+00:00",
+      "location_status": "unmapped; separate sensor, no room inference"
+    }
+  },
+  "config": {
+    "primary_sensor_id": "6012002000869",
+    "secondary_sensor_id": "6012002000326",
+    "development_fraction": 0.6,
+    "validation_fraction": 0.2,
+    "missing_counts": [
+      1,
+      3,
+      6
+    ],
+    "context_points_each_side": 4,
+    "start_stride_observations": 12,
+    "maximum_observed_step_s": 900.0,
+    "methods": [
+      "previous",
+      "linear",
+      "pchip"
+    ],
+    "selection_metric": "mean over gap sizes of pooled validation RMSE in ppm",
+    "relative_tie_tolerance": 0.01,
+    "simplicity_order": [
+      "previous",
+      "linear",
+      "pchip"
+    ],
+    "secondary_min_unix_time_s": 1735689600,
+    "secondary_scope": "all qualifying windows after 1 January 2025 UTC, evaluated after primary validation selection",
+    "evaluation_mode": "retrospective interpolation with observations before and after each artificial gap",
+    "policy_frozen_before_results": true
+  },
+  "prepared_data_sha256": "4560b11678c4faa7fbfe3044077c4e81f74f8f3d054861e62442e0c62417740d",
+  "metrics": [
+    {
+      "partition": "validation",
+      "method": "previous",
+      "missing_count": 1,
+      "windows": 95,
+      "hidden_readings": 95,
+      "mae": 8.494736842105263,
+      "rmse": 11.153002899856636,
+      "max_abs_error": 32.0,
+      "bias": -0.22105263157894736
+    },
+    {
+      "partition": "validation",
+      "method": "linear",
+      "missing_count": 1,
+      "windows": 95,
+      "hidden_readings": 95,
+      "mae": 6.973214608476187,
+      "rmse": 9.233265038648174,
+      "max_abs_error": 27.0,
+      "bias": -0.5628903463978715
+    },
+    {
+      "partition": "validation",
+      "method": "pchip",
+      "missing_count": 1,
+      "windows": 95,
+      "hidden_readings": 95,
+      "mae": 7.067662990365229,
+      "rmse": 9.427441848656915,
+      "max_abs_error": 28.227272727272748,
+      "bias": -0.8115352460484725
+    },
+    {
+      "partition": "validation",
+      "method": "previous",
+      "missing_count": 3,
+      "windows": 57,
+      "hidden_readings": 171,
+      "mae": 10.192982456140353,
+      "rmse": 12.988298827511958,
+      "max_abs_error": 36.0,
+      "bias": -0.742690058479532
+    },
+    {
+      "partition": "validation",
+      "method": "linear",
+      "missing_count": 3,
+      "windows": 57,
+      "hidden_readings": 171,
+      "mae": 9.347731634806262,
+      "rmse": 11.79242367506318,
+      "max_abs_error": 32.0,
+      "bias": 0.8709770040182079
+    },
+    {
+      "partition": "validation",
+      "method": "pchip",
+      "missing_count": 3,
+      "windows": 57,
+      "hidden_readings": 171,
+      "mae": 9.583944279973805,
+      "rmse": 12.256585064852725,
+      "max_abs_error": 36.32584269662925,
+      "bias": 0.7110929121218983
+    },
+    {
+      "partition": "validation",
+      "method": "previous",
+      "missing_count": 6,
+      "windows": 6,
+      "hidden_readings": 36,
+      "mae": 10.166666666666666,
+      "rmse": 12.101423240447566,
+      "max_abs_error": 27.0,
+      "bias": 5.555555555555555
+    },
+    {
+      "partition": "validation",
+      "method": "linear",
+      "missing_count": 6,
+      "windows": 6,
+      "hidden_readings": 36,
+      "mae": 8.578904075320555,
+      "rmse": 10.37706306859812,
+      "max_abs_error": 27.713095238095264,
+      "bias": 2.7225530108324736
+    },
+    {
+      "partition": "validation",
+      "method": "pchip",
+      "missing_count": 6,
+      "windows": 6,
+      "hidden_readings": 36,
+      "mae": 9.204359520924013,
+      "rmse": 11.01490140636689,
+      "max_abs_error": 28.3775785962261,
+      "bias": 3.0786414460005895
+    },
+    {
+      "partition": "test",
+      "method": "previous",
+      "missing_count": 1,
+      "windows": 102,
+      "hidden_readings": 102,
+      "mae": 8.186274509803921,
+      "rmse": 10.35686757095759,
+      "max_abs_error": 26.0,
+      "bias": -1.2058823529411766
+    },
+    {
+      "partition": "test",
+      "method": "linear",
+      "missing_count": 1,
+      "windows": 102,
+      "hidden_readings": 102,
+      "mae": 7.8436433495745215,
+      "rmse": 9.611660860382218,
+      "max_abs_error": 29.011656952539568,
+      "bias": -0.5687583273471537
+    },
+    {
+      "partition": "test",
+      "method": "pchip",
+      "missing_count": 1,
+      "windows": 102,
+      "hidden_readings": 102,
+      "mae": 8.029734436156273,
+      "rmse": 9.857476368763699,
+      "max_abs_error": 29.017485424768495,
+      "bias": -0.5679604169427033
+    },
+    {
+      "partition": "test",
+      "method": "previous",
+      "missing_count": 3,
+      "windows": 70,
+      "hidden_readings": 210,
+      "mae": 8.609523809523807,
+      "rmse": 10.616249898375694,
+      "max_abs_error": 33.0,
+      "bias": -0.6952380952380952
+    },
+    {
+      "partition": "test",
+      "method": "linear",
+      "missing_count": 3,
+      "windows": 70,
+      "hidden_readings": 210,
+      "mae": 7.397657617875133,
+      "rmse": 9.173018023195965,
+      "max_abs_error": 23.5,
+      "bias": -1.1667560971010535
+    },
+    {
+      "partition": "test",
+      "method": "pchip",
+      "missing_count": 3,
+      "windows": 70,
+      "hidden_readings": 210,
+      "mae": 7.830856443072726,
+      "rmse": 9.686020030687082,
+      "max_abs_error": 27.117559523809575,
+      "bias": -1.2280870342036543
+    },
+    {
+      "partition": "test",
+      "method": "previous",
+      "missing_count": 6,
+      "windows": 22,
+      "hidden_readings": 132,
+      "mae": 8.674242424242424,
+      "rmse": 10.695156082842532,
+      "max_abs_error": 28.0,
+      "bias": -0.022727272727272787
+    },
+    {
+      "partition": "test",
+      "method": "linear",
+      "missing_count": 6,
+      "windows": 22,
+      "hidden_readings": 132,
+      "mae": 7.085237098749097,
+      "rmse": 8.806198997902252,
+      "max_abs_error": 35.71459176386577,
+      "bias": 0.2499280478693076
+    },
+    {
+      "partition": "test",
+      "method": "pchip",
+      "missing_count": 6,
+      "windows": 22,
+      "hidden_readings": 132,
+      "mae": 7.471380484654371,
+      "rmse": 9.179411622961007,
+      "max_abs_error": 36.635226364657626,
+      "bias": 0.23690814967093854
+    },
+    {
+      "partition": "secondary",
+      "method": "previous",
+      "missing_count": 1,
+      "windows": 1134,
+      "hidden_readings": 1134,
+      "mae": 8.708112874779541,
+      "rmse": 13.895268376146966,
+      "max_abs_error": 145.0,
+      "bias": 0.7169312169312171
+    },
+    {
+      "partition": "secondary",
+      "method": "linear",
+      "missing_count": 1,
+      "windows": 1134,
+      "hidden_readings": 1134,
+      "mae": 7.3817047443270765,
+      "rmse": 12.70360376167877,
+      "max_abs_error": 201.5,
+      "bias": 0.4823866493962998
+    },
+    {
+      "partition": "secondary",
+      "method": "pchip",
+      "missing_count": 1,
+      "windows": 1134,
+      "hidden_readings": 1134,
+      "mae": 7.558232409887869,
+      "rmse": 12.916035696560785,
+      "max_abs_error": 201.5,
+      "bias": 0.40708682119964923
+    },
+    {
+      "partition": "secondary",
+      "method": "previous",
+      "missing_count": 3,
+      "windows": 826,
+      "hidden_readings": 2478,
+      "mae": 9.483454398708636,
+      "rmse": 16.22874222647677,
+      "max_abs_error": 194.0,
+      "bias": 1.2768361581920904
+    },
+    {
+      "partition": "secondary",
+      "method": "linear",
+      "missing_count": 3,
+      "windows": 826,
+      "hidden_readings": 2478,
+      "mae": 7.783943134780264,
+      "rmse": 13.017894165731361,
+      "max_abs_error": 164.77384423157014,
+      "bias": 0.7949286691368969
+    },
+    {
+      "partition": "secondary",
+      "method": "pchip",
+      "missing_count": 3,
+      "windows": 826,
+      "hidden_readings": 2478,
+      "mae": 8.039745337108425,
+      "rmse": 13.553073355682162,
+      "max_abs_error": 189.29167731870018,
+      "bias": 0.7464888207151724
+    },
+    {
+      "partition": "secondary",
+      "method": "previous",
+      "missing_count": 6,
+      "windows": 392,
+      "hidden_readings": 2352,
+      "mae": 9.660714285714285,
+      "rmse": 15.784879314267387,
+      "max_abs_error": 229.0,
+      "bias": 0.40561224489795916
+    },
+    {
+      "partition": "secondary",
+      "method": "linear",
+      "missing_count": 6,
+      "windows": 392,
+      "hidden_readings": 2352,
+      "mae": 8.60713030776503,
+      "rmse": 16.710492941530344,
+      "max_abs_error": 312.8571428571429,
+      "bias": 0.34429859833393855
+    },
+    {
+      "partition": "secondary",
+      "method": "pchip",
+      "missing_count": 6,
+      "windows": 392,
+      "hidden_readings": 2352,
+      "mae": 8.797551368696723,
+      "rmse": 17.28683269620669,
+      "max_abs_error": 345.5305313025458,
+      "bias": 0.14817579768450062
+    }
+  ],
+  "eligibility": [
+    {
+      "missing_count": 1,
+      "candidate_windows": 230,
+      "eligible_windows": 95,
+      "excluded_windows": 135,
+      "partition": "validation"
+    },
+    {
+      "missing_count": 3,
+      "candidate_windows": 230,
+      "eligible_windows": 57,
+      "excluded_windows": 173,
+      "partition": "validation"
+    },
+    {
+      "missing_count": 6,
+      "candidate_windows": 229,
+      "eligible_windows": 6,
+      "excluded_windows": 223,
+      "partition": "validation"
+    },
+    {
+      "missing_count": 1,
+      "candidate_windows": 230,
+      "eligible_windows": 102,
+      "excluded_windows": 128,
+      "partition": "test"
+    },
+    {
+      "missing_count": 3,
+      "candidate_windows": 230,
+      "eligible_windows": 70,
+      "excluded_windows": 160,
+      "partition": "test"
+    },
+    {
+      "missing_count": 6,
+      "candidate_windows": 229,
+      "eligible_windows": 22,
+      "excluded_windows": 207,
+      "partition": "test"
+    },
+    {
+      "missing_count": 1,
+      "candidate_windows": 2420,
+      "eligible_windows": 1134,
+      "excluded_windows": 1286,
+      "partition": "secondary"
+    },
+    {
+      "missing_count": 3,
+      "candidate_windows": 2419,
+      "eligible_windows": 826,
+      "excluded_windows": 1593,
+      "partition": "secondary"
+    },
+    {
+      "missing_count": 6,
+      "candidate_windows": 2419,
+      "eligible_windows": 392,
+      "excluded_windows": 2027,
+      "partition": "secondary"
+    }
+  ],
+  "optimisation": [
+    {
+      "implementation": "scalar",
+      "known_points": 1657,
+      "query_points": 8280,
+      "max_output_difference_ppm": 1.1368683772161603e-13,
+      "median_runtime_s": 0.002677499986020848,
+      "min_runtime_s": 0.0026010830188170075,
+      "max_runtime_s": 0.002707041974645108,
+      "repeats": 7
+    },
+    {
+      "implementation": "vectorized",
+      "known_points": 1657,
+      "query_points": 8280,
+      "max_output_difference_ppm": 1.1368683772161603e-13,
+      "median_runtime_s": 4.529199213720858e-05,
+      "min_runtime_s": 4.412501584738493e-05,
+      "max_runtime_s": 4.587500006891787e-05,
+      "repeats": 7
+    }
+  ],
+  "method_runtime": [
+    {
+      "method": "previous",
+      "windows": 158,
+      "median_runtime_s": 0.0016394169942941517,
+      "min_runtime_s": 0.0015777089865878224,
+      "max_runtime_s": 0.0017067919834516943,
+      "repeats": 7
+    },
+    {
+      "method": "linear",
+      "windows": 158,
+      "median_runtime_s": 0.0014294580032583326,
+      "min_runtime_s": 0.0014193330134730786,
+      "max_runtime_s": 0.0015060419973451644,
+      "repeats": 7
+    },
+    {
+      "method": "pchip",
+      "windows": 158,
+      "median_runtime_s": 0.012381999986246228,
+      "min_runtime_s": 0.011857208010042086,
+      "max_runtime_s": 0.012805750011466444,
+      "repeats": 7
+    }
+  ],
+  "vectorization_speedup": 59.116410201378855,
+  "retained_benchmark_array_bytes": 225232,
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-15.6.1-arm64-arm-64bit",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "pandas": "2.2.3",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1"
+  },
+  "interpretation": "Errors against withheld readings, not independently calibrated physical truth.",
+  "test_used_for_selection": false,
+  "retuned_after_test": false
+}

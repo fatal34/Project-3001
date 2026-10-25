@@ -1,0 +1,28 @@
+         24895 function calls in 0.005 seconds
+
+   Ordered by: cumulative time
+   List reduced from 21 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.004    0.004    0.005    0.005 interpolation.py:119(scalar_linear)
+     8280    0.001    0.000    0.001    0.000 {built-in method _bisect.bisect_right}
+     8280    0.001    0.000    0.001    0.000 {built-in method builtins.min}
+     8280    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        2    0.000    0.000    0.000    0.000 {method 'tolist' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 interpolation.py:36(_series)
+        3    0.000    0.000    0.000    0.000 interpolation.py:18(_finite_vector)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 interpolation.py:47(_queries)
+        6    0.000    0.000    0.000    0.000 fromnumeric.py:89(_wrapreduction_any_all)
+        3    0.000    0.000    0.000    0.000 fromnumeric.py:2589(all)
+        3    0.000    0.000    0.000    0.000 fromnumeric.py:2477(any)
+        6    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        3    0.000    0.000    0.000    0.000 _type_check_impl.py:270(iscomplexobj)
+        6    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+        6    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 fromnumeric.py:2584(_all_dispatcher)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.empty}
+        3    0.000    0.000    0.000    0.000 fromnumeric.py:2472(_any_dispatcher)
+
+
