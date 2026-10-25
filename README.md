@@ -70,9 +70,3 @@ The genuine scalar/vectorised linear comparison uses the same 1,657 known points
 Code verification includes manufactured affine cases, a manually calculated irregular interpolation, independent PCHIP Hermite arithmetic, mask exclusion, input guards, source deduplication/unit tests and end-to-end CSV checks. Source/data consistency does not establish sensor calibration. The rubric, limitations, AI responsibility and student practice are documented in `docs` and `notes`.
 
 Original code/documentation use the MIT licence. The university dataset and course materials have separate ownership and no public redistribution permission is established here. Raw ZIPs, the original workbook and course PDFs are excluded from Git. Use the documented course-data route for a full raw audit, and review prepared data sharing before publishing. The manual guide explains access for a private repository.
-
-## Package and submit
-
-The supplied clone has `main`, genuine local Git history and no remote. Publish it yourself following the guide, then give the assessor access. After any genuine personal-review changes, publish the final commit and create a fresh matching clone ZIP for Moodle. `python scripts/package_submission.py` can package a clean committed local project; it does not upload anything and removes a local clone's remote. The external manifest records its exact commit and checksum.
-
-Submit the report, matching final repository-clone ZIP and accessible real GitHub URL through Moodle. The confirmed extension ends **midnight at the end of Sunday 25 October 2026, Melbourne**. Personally review and understand the work and add only truthful reflection before submitting. Book and attend the five-minute presentation plus three-minute questions, and upload slides at least 24 hours beforehand if used. Artifact creation does not complete those external responsibilities.
