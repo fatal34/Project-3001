@@ -1,0 +1,1295 @@
+{
+  "source_zip": "5EnvSensor_MayToDec2024_180kRows.zip",
+  "csv": "5EnvSensor_MayToDec2024_180kRows.csv",
+  "csv_header": [
+    "id",
+    "sensorid",
+    "devicetype",
+    "jsondata",
+    "status",
+    "processing_errors",
+    "createdate",
+    "processdate"
+  ],
+  "records": 179447,
+  "unique_row_ids": 179447,
+  "duplicate_row_ids": 0,
+  "sensor_count": 5,
+  "status_counts": {
+    "Processed": 179447
+  },
+  "processing_error_counts": {
+    "NULL": 179447
+  },
+  "variables": [
+    {
+      "name": "Battery",
+      "unit": "V",
+      "records": 179447
+    },
+    {
+      "name": "Carbon dioxide",
+      "unit": "ppm",
+      "records": 179447
+    },
+    {
+      "name": "Humidity",
+      "unit": "HR%",
+      "records": 179447
+    },
+    {
+      "name": "Formaldehyde",
+      "unit": "µg/m3",
+      "records": 179447
+    },
+    {
+      "name": "Pressure",
+      "unit": "mb",
+      "records": 179447
+    },
+    {
+      "name": "Temperature",
+      "unit": "°C",
+      "records": 179447
+    },
+    {
+      "name": "Light Volatile Organic Compounds",
+      "unit": "ppb",
+      "records": 149881
+    },
+    {
+      "name": "Particulate matter 1",
+      "unit": "µg/m3",
+      "records": 177738
+    },
+    {
+      "name": "Particulate matter 4",
+      "unit": "µg/m3",
+      "records": 177738
+    },
+    {
+      "name": "Particulate matter 2.5",
+      "unit": "µg/m3",
+      "records": 177738
+    },
+    {
+      "name": "Particulate matter 10",
+      "unit": "µg/m3",
+      "records": 179447
+    }
+  ],
+  "variable_entry_counts": {
+    "Battery": 179447,
+    "Carbon dioxide": 179447,
+    "Humidity": 179447,
+    "Formaldehyde": 179447,
+    "Pressure": 179447,
+    "Temperature": 179447,
+    "Light Volatile Organic Compounds": 149881,
+    "Particulate matter 1": 177738,
+    "Particulate matter 4": 177738,
+    "Particulate matter 2.5": 177738,
+    "Particulate matter 10": 179447
+  },
+  "missing_measurement_values": {
+    "Formaldehyde": 113380
+  },
+  "variables_per_payload": {
+    "11": 148172,
+    "10": 29566,
+    "8": 1709
+  },
+  "values_per_variable_entry": {
+    "1": 1937515,
+    "0": 1709
+  },
+  "payloads_with_multiple_measurement_times": 0,
+  "measurement_month_counts_utc": {
+    "2023-05": 10926,
+    "2023-12": 80047,
+    "2024-02": 81,
+    "2024-03": 3954,
+    "2024-04": 4001,
+    "2024-05": 4159,
+    "2024-06": 17146,
+    "2025-05": 29566,
+    "2025-09": 2638,
+    "2025-10": 4193,
+    "2025-11": 4063,
+    "2025-12": 4199,
+    "2026-01": 4199,
+    "2026-02": 3158,
+    "2026-03": 4198,
+    "2026-04": 2919
+  },
+  "duplicate_workbook_environmental_ids": {
+    "6012003000691": [
+      {
+        "Building": 69.0,
+        "Floor/Room": "G.52",
+        "Area": "Workshop",
+        "Physical Label": "ES2G14",
+        "Sensor": "Env",
+        "ID": 6012003000691.0
+      },
+      {
+        "Building": 69.0,
+        "Floor/Room": "G.61",
+        "Area": "East Entrance",
+        "Physical Label": "ES2G01",
+        "Sensor": "Env",
+        "ID": 6012003000691.0
+      }
+    ]
+  },
+  "data_ids_absent_from_workbook": [
+    "6012002000227",
+    "6012002000241",
+    "6012002000326",
+    "6012002000777"
+  ],
+  "workbook_ids_absent_from_data": [
+    "6012002000555",
+    "6012002000692",
+    "6012002000715",
+    "6012002000722",
+    "6012002000739",
+    "6012002000746",
+    "6012002000760",
+    "6012002000784",
+    "6012002000791",
+    "6012002000807",
+    "6012002000814",
+    "6012002000821",
+    "6012002000838",
+    "6012002000852",
+    "6012002000883",
+    "6012002000890",
+    "6012002000906",
+    "6012002000920",
+    "6012002000937",
+    "6012002000951",
+    "6012002000968",
+    "6012002000975",
+    "6012003000141",
+    "6012003000172",
+    "6012003000189",
+    "6012003000202",
+    "6012003000219",
+    "6012003000226",
+    "6012003000233",
+    "6012003000240",
+    "6012003000363",
+    "6012003000370",
+    "6012003000387",
+    "6012003000394",
+    "6012003000400",
+    "6012003000417",
+    "6012003000424",
+    "6012003000431",
+    "6012003000448",
+    "6012003000455",
+    "6012003000462",
+    "6012003000479",
+    "6012003000486",
+    "6012003000493",
+    "6012003000509",
+    "6012003000516",
+    "6012003000530",
+    "6012003000547",
+    "6012003000554",
+    "6012003000578",
+    "6012003000585",
+    "6012003000592",
+    "6012003000608",
+    "6012003000622",
+    "6012003000646",
+    "6012003000653",
+    "6012003000660",
+    "6012003000684",
+    "6012003000691",
+    "6012003000707",
+    "6012003000714",
+    "6012003000721",
+    "6012003000738",
+    "6012003000745",
+    "6012003000769",
+    "6012003000776",
+    "6012003000790",
+    "6012003000813",
+    "6012003000820",
+    "6012003000844",
+    "6012003000851",
+    "6012003000875",
+    "6012003000882",
+    "6012003000899",
+    "6012003000905",
+    "6012003000912"
+  ],
+  "sensors": {
+    "6012002000241": {
+      "records": 58908,
+      "unique_measurement_times": 2,
+      "duplicate_measurement_times": 58906,
+      "duplicate_payloads": 58905,
+      "bad_payloads": 0,
+      "measurement_start_utc": "2023-12-11T05:52:45+00:00",
+      "measurement_end_utc": "2025-05-19T13:08:04+00:00",
+      "record_created_start": "2024-02-29 03:11:58.210358+11",
+      "record_created_end": "2026-04-22 23:20:32.020253+10",
+      "measurement_month_counts_utc": {
+        "2023-12": 29342,
+        "2025-05": 29566
+      },
+      "cadence_seconds": {
+        "min": 45386119,
+        "median": 45386119.0,
+        "max": 45386119,
+        "most_common": [
+          [
+            45386119,
+            1
+          ]
+        ],
+        "gaps_over_1h": 1,
+        "gaps_over_6h": 1,
+        "gaps_over_24h": 1
+      },
+      "location_matches": [],
+      "variables": {
+        "Battery": {
+          "count": 58908,
+          "nonfinite": 0,
+          "min": 4.1875,
+          "max": 4.1875,
+          "quantiles": {
+            "q01": 4.1875,
+            "q25": 4.1875,
+            "q50": 4.1875,
+            "q75": 4.1875,
+            "q99": 4.1875
+          },
+          "unique_measurement_times": 2,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Carbon dioxide": {
+          "count": 58908,
+          "nonfinite": 0,
+          "min": 447.0,
+          "max": 603.0,
+          "quantiles": {
+            "q01": 447.0,
+            "q25": 447.0,
+            "q50": 447.0,
+            "q75": 603.0,
+            "q99": 603.0
+          },
+          "unique_measurement_times": 2,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Humidity": {
+          "count": 58908,
+          "nonfinite": 0,
+          "min": 45.0,
+          "max": 66.0,
+          "quantiles": {
+            "q01": 45.0,
+            "q25": 45.0,
+            "q50": 45.0,
+            "q75": 66.0,
+            "q99": 66.0
+          },
+          "unique_measurement_times": 2,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Formaldehyde": {
+          "count": 15781,
+          "nonfinite": 0,
+          "min": 6.0,
+          "max": 6.0,
+          "quantiles": {
+            "q01": 6.0,
+            "q25": 6.0,
+            "q50": 6.0,
+            "q75": 6.0,
+            "q99": 6.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Pressure": {
+          "count": 58908,
+          "nonfinite": 0,
+          "min": 1011.0,
+          "max": 1023.0,
+          "quantiles": {
+            "q01": 1011.0,
+            "q25": 1011.0,
+            "q50": 1023.0,
+            "q75": 1023.0,
+            "q99": 1023.0
+          },
+          "unique_measurement_times": 2,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Temperature": {
+          "count": 58908,
+          "nonfinite": 0,
+          "min": 15.5,
+          "max": 23.8,
+          "quantiles": {
+            "q01": 15.5,
+            "q25": 15.5,
+            "q50": 15.5,
+            "q75": 23.8,
+            "q99": 23.8
+          },
+          "unique_measurement_times": 2,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Light Volatile Organic Compounds": {
+          "count": 29342,
+          "nonfinite": 0,
+          "min": 14.0,
+          "max": 14.0,
+          "quantiles": {
+            "q01": 14.0,
+            "q25": 14.0,
+            "q50": 14.0,
+            "q75": 14.0,
+            "q99": 14.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 1": {
+          "count": 58908,
+          "nonfinite": 0,
+          "min": 2.0,
+          "max": 8.0,
+          "quantiles": {
+            "q01": 2.0,
+            "q25": 2.0,
+            "q50": 2.0,
+            "q75": 8.0,
+            "q99": 8.0
+          },
+          "unique_measurement_times": 2,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 4": {
+          "count": 58908,
+          "nonfinite": 0,
+          "min": 2.0,
+          "max": 9.0,
+          "quantiles": {
+            "q01": 2.0,
+            "q25": 2.0,
+            "q50": 2.0,
+            "q75": 9.0,
+            "q99": 9.0
+          },
+          "unique_measurement_times": 2,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 2.5": {
+          "count": 58908,
+          "nonfinite": 0,
+          "min": 2.0,
+          "max": 9.0,
+          "quantiles": {
+            "q01": 2.0,
+            "q25": 2.0,
+            "q50": 2.0,
+            "q75": 9.0,
+            "q99": 9.0
+          },
+          "unique_measurement_times": 2,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 10": {
+          "count": 58908,
+          "nonfinite": 0,
+          "min": 2.0,
+          "max": 9.0,
+          "quantiles": {
+            "q01": 2.0,
+            "q25": 2.0,
+            "q50": 2.0,
+            "q75": 9.0,
+            "q99": 9.0
+          },
+          "unique_measurement_times": 2,
+          "conflicting_duplicate_timestamps": 0
+        }
+      }
+    },
+    "6012002000326": {
+      "records": 58909,
+      "unique_measurement_times": 29039,
+      "duplicate_measurement_times": 29870,
+      "duplicate_payloads": 29869,
+      "bad_payloads": 0,
+      "measurement_start_utc": "2023-12-11T05:00:57+00:00",
+      "measurement_end_utc": "2026-04-22T13:12:41+00:00",
+      "record_created_start": "2024-02-29 17:09:12.444245+11",
+      "record_created_end": "2026-04-22 23:20:33.199878+10",
+      "measurement_month_counts_utc": {
+        "2023-12": 29342,
+        "2025-09": 2638,
+        "2025-10": 4193,
+        "2025-11": 4063,
+        "2025-12": 4199,
+        "2026-01": 4199,
+        "2026-02": 3158,
+        "2026-03": 4198,
+        "2026-04": 2919
+      },
+      "cadence_seconds": {
+        "min": 577,
+        "median": 600.0,
+        "max": 54968913,
+        "most_common": [
+          [
+            600,
+            23505
+          ],
+          [
+            1200,
+            1776
+          ],
+          [
+            601,
+            1633
+          ],
+          [
+            599,
+            1553
+          ],
+          [
+            1199,
+            129
+          ],
+          [
+            1201,
+            120
+          ],
+          [
+            602,
+            98
+          ],
+          [
+            598,
+            66
+          ],
+          [
+            1800,
+            35
+          ],
+          [
+            2400,
+            21
+          ],
+          [
+            1202,
+            13
+          ],
+          [
+            3000,
+            13
+          ]
+        ],
+        "gaps_over_1h": 16,
+        "gaps_over_6h": 3,
+        "gaps_over_24h": 3
+      },
+      "location_matches": [],
+      "variables": {
+        "Battery": {
+          "count": 58909,
+          "nonfinite": 0,
+          "min": 3.9688,
+          "max": 4.25,
+          "quantiles": {
+            "q01": 4.0938,
+            "q25": 4.1875,
+            "q50": 4.1875,
+            "q75": 4.1875,
+            "q99": 4.2188
+          },
+          "unique_measurement_times": 29039,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Carbon dioxide": {
+          "count": 58909,
+          "nonfinite": 0,
+          "min": 400.0,
+          "max": 1387.0,
+          "quantiles": {
+            "q01": 409.0,
+            "q25": 437.0,
+            "q50": 525.0,
+            "q75": 525.0,
+            "q99": 525.0
+          },
+          "unique_measurement_times": 29039,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Humidity": {
+          "count": 58909,
+          "nonfinite": 0,
+          "min": 17.0,
+          "max": 84.0,
+          "quantiles": {
+            "q01": 32.0,
+            "q25": 54.0,
+            "q50": 68.0,
+            "q75": 68.0,
+            "q99": 73.0
+          },
+          "unique_measurement_times": 29039,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Formaldehyde": {
+          "count": 15780,
+          "nonfinite": 0,
+          "min": 5.0,
+          "max": 5.0,
+          "quantiles": {
+            "q01": 5.0,
+            "q25": 5.0,
+            "q50": 5.0,
+            "q75": 5.0,
+            "q99": 5.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Pressure": {
+          "count": 58909,
+          "nonfinite": 0,
+          "min": 988.0,
+          "max": 1024.0,
+          "quantiles": {
+            "q01": 996.0,
+            "q25": 1009.0,
+            "q50": 1012.0,
+            "q75": 1012.0,
+            "q99": 1021.0
+          },
+          "unique_measurement_times": 29039,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Temperature": {
+          "count": 58909,
+          "nonfinite": 0,
+          "min": 11.8,
+          "max": 37.5,
+          "quantiles": {
+            "q01": 14.5,
+            "q25": 20.3,
+            "q50": 23.8,
+            "q75": 23.8,
+            "q99": 30.0
+          },
+          "unique_measurement_times": 29039,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Light Volatile Organic Compounds": {
+          "count": 58909,
+          "nonfinite": 0,
+          "min": 0.0,
+          "max": 8051.0,
+          "quantiles": {
+            "q01": 0.0,
+            "q25": 0.0,
+            "q50": 7.0,
+            "q75": 7.0,
+            "q99": 38.0
+          },
+          "unique_measurement_times": 29039,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 1": {
+          "count": 57200,
+          "nonfinite": 0,
+          "min": 0.0,
+          "max": 62.0,
+          "quantiles": {
+            "q01": 0.0,
+            "q25": 0.0,
+            "q50": 6.0,
+            "q75": 6.0,
+            "q99": 6.0
+          },
+          "unique_measurement_times": 27346,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 4": {
+          "count": 57200,
+          "nonfinite": 0,
+          "min": 0.0,
+          "max": 163.0,
+          "quantiles": {
+            "q01": 0.0,
+            "q25": 0.0,
+            "q50": 6.0,
+            "q75": 6.0,
+            "q99": 6.0
+          },
+          "unique_measurement_times": 27346,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 2.5": {
+          "count": 57200,
+          "nonfinite": 0,
+          "min": 0.0,
+          "max": 105.0,
+          "quantiles": {
+            "q01": 0.0,
+            "q25": 0.0,
+            "q50": 6.0,
+            "q75": 6.0,
+            "q99": 6.0
+          },
+          "unique_measurement_times": 27346,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 10": {
+          "count": 57200,
+          "nonfinite": 0,
+          "min": 0.0,
+          "max": 190.0,
+          "quantiles": {
+            "q01": 0.0,
+            "q25": 0.0,
+            "q50": 6.0,
+            "q75": 6.0,
+            "q99": 6.0
+          },
+          "unique_measurement_times": 27346,
+          "conflicting_duplicate_timestamps": 0
+        }
+      }
+    },
+    "6012002000777": {
+      "records": 10926,
+      "unique_measurement_times": 1,
+      "duplicate_measurement_times": 10925,
+      "duplicate_payloads": 10925,
+      "bad_payloads": 0,
+      "measurement_start_utc": "2023-05-05T22:42:45+00:00",
+      "measurement_end_utc": "2023-05-05T22:42:45+00:00",
+      "record_created_start": "2024-02-29 17:10:24.443407+11",
+      "record_created_end": "2024-05-23 00:13:48.760363+10",
+      "measurement_month_counts_utc": {
+        "2023-05": 10926
+      },
+      "cadence_seconds": null,
+      "location_matches": [],
+      "variables": {
+        "Battery": {
+          "count": 10926,
+          "nonfinite": 0,
+          "min": 4.1562,
+          "max": 4.1562,
+          "quantiles": {
+            "q01": 4.1562,
+            "q25": 4.1562,
+            "q50": 4.1562,
+            "q75": 4.1562,
+            "q99": 4.1562
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Carbon dioxide": {
+          "count": 10926,
+          "nonfinite": 0,
+          "min": 425.0,
+          "max": 425.0,
+          "quantiles": {
+            "q01": 425.0,
+            "q25": 425.0,
+            "q50": 425.0,
+            "q75": 425.0,
+            "q99": 425.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Humidity": {
+          "count": 10926,
+          "nonfinite": 0,
+          "min": 51.0,
+          "max": 51.0,
+          "quantiles": {
+            "q01": 51.0,
+            "q25": 51.0,
+            "q50": 51.0,
+            "q75": 51.0,
+            "q99": 51.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Formaldehyde": {
+          "count": 10926,
+          "nonfinite": 0,
+          "min": 1.0,
+          "max": 1.0,
+          "quantiles": {
+            "q01": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q99": 1.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Pressure": {
+          "count": 10926,
+          "nonfinite": 0,
+          "min": 1015.0,
+          "max": 1015.0,
+          "quantiles": {
+            "q01": 1015.0,
+            "q25": 1015.0,
+            "q50": 1015.0,
+            "q75": 1015.0,
+            "q99": 1015.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Temperature": {
+          "count": 10926,
+          "nonfinite": 0,
+          "min": 18.8,
+          "max": 18.8,
+          "quantiles": {
+            "q01": 18.8,
+            "q25": 18.8,
+            "q50": 18.8,
+            "q75": 18.8,
+            "q99": 18.8
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Light Volatile Organic Compounds": {
+          "count": 10926,
+          "nonfinite": 0,
+          "min": 71.0,
+          "max": 71.0,
+          "quantiles": {
+            "q01": 71.0,
+            "q25": 71.0,
+            "q50": 71.0,
+            "q75": 71.0,
+            "q99": 71.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 1": {
+          "count": 10926,
+          "nonfinite": 0,
+          "min": 1.0,
+          "max": 1.0,
+          "quantiles": {
+            "q01": 1.0,
+            "q25": 1.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q99": 1.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 4": {
+          "count": 10926,
+          "nonfinite": 0,
+          "min": 3.0,
+          "max": 3.0,
+          "quantiles": {
+            "q01": 3.0,
+            "q25": 3.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q99": 3.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 2.5": {
+          "count": 10926,
+          "nonfinite": 0,
+          "min": 3.0,
+          "max": 3.0,
+          "quantiles": {
+            "q01": 3.0,
+            "q25": 3.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q99": 3.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 10": {
+          "count": 10926,
+          "nonfinite": 0,
+          "min": 4.0,
+          "max": 4.0,
+          "quantiles": {
+            "q01": 4.0,
+            "q25": 4.0,
+            "q50": 4.0,
+            "q75": 4.0,
+            "q99": 4.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        }
+      }
+    },
+    "6012002000869": {
+      "records": 29341,
+      "unique_measurement_times": 13800,
+      "duplicate_measurement_times": 15541,
+      "duplicate_payloads": 15540,
+      "bad_payloads": 0,
+      "measurement_start_utc": "2024-02-29T06:04:56+00:00",
+      "measurement_end_utc": "2024-06-13T17:45:44+00:00",
+      "record_created_start": "2024-02-29 17:11:11.348578+11",
+      "record_created_end": "2024-10-10 15:56:13.917171+11",
+      "measurement_month_counts_utc": {
+        "2024-02": 81,
+        "2024-03": 3954,
+        "2024-04": 4001,
+        "2024-05": 4159,
+        "2024-06": 17146
+      },
+      "cadence_seconds": {
+        "min": 574,
+        "median": 600.0,
+        "max": 1799,
+        "most_common": [
+          [
+            600,
+            9191
+          ],
+          [
+            601,
+            1309
+          ],
+          [
+            599,
+            1256
+          ],
+          [
+            1200,
+            899
+          ],
+          [
+            598,
+            305
+          ],
+          [
+            602,
+            286
+          ],
+          [
+            1201,
+            194
+          ],
+          [
+            1199,
+            173
+          ],
+          [
+            1202,
+            58
+          ],
+          [
+            1198,
+            49
+          ],
+          [
+            603,
+            26
+          ],
+          [
+            597,
+            25
+          ]
+        ],
+        "gaps_over_1h": 0,
+        "gaps_over_6h": 0,
+        "gaps_over_24h": 0
+      },
+      "location_matches": [
+        {
+          "Building": 60.0,
+          "Floor/Room": "G.38",
+          "Area": "Compactus_upper",
+          "Physical Label": "EMS107",
+          "Sensor": "Env",
+          "ID": 6012002000869.0
+        }
+      ],
+      "variables": {
+        "Battery": {
+          "count": 29341,
+          "nonfinite": 0,
+          "min": 4.0312,
+          "max": 4.125,
+          "quantiles": {
+            "q01": 4.0312,
+            "q25": 4.0312,
+            "q50": 4.0312,
+            "q75": 4.0938,
+            "q99": 4.125
+          },
+          "unique_measurement_times": 13800,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Carbon dioxide": {
+          "count": 29341,
+          "nonfinite": 0,
+          "min": 403.0,
+          "max": 646.0,
+          "quantiles": {
+            "q01": 425.0,
+            "q25": 465.0,
+            "q50": 520.0,
+            "q75": 520.0,
+            "q99": 574.0
+          },
+          "unique_measurement_times": 13800,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Humidity": {
+          "count": 29341,
+          "nonfinite": 0,
+          "min": 26.0,
+          "max": 75.0,
+          "quantiles": {
+            "q01": 33.0,
+            "q25": 42.0,
+            "q50": 42.0,
+            "q75": 44.0,
+            "q99": 62.0
+          },
+          "unique_measurement_times": 13800,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Formaldehyde": {
+          "count": 15780,
+          "nonfinite": 0,
+          "min": 17.0,
+          "max": 55.0,
+          "quantiles": {
+            "q01": 17.0,
+            "q25": 25.0,
+            "q50": 37.0,
+            "q75": 51.0,
+            "q99": 55.0
+          },
+          "unique_measurement_times": 13800,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Pressure": {
+          "count": 29341,
+          "nonfinite": 0,
+          "min": 1002.0,
+          "max": 1028.0,
+          "quantiles": {
+            "q01": 1005.0,
+            "q25": 1016.0,
+            "q50": 1016.0,
+            "q75": 1018.0,
+            "q99": 1027.0
+          },
+          "unique_measurement_times": 13800,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Temperature": {
+          "count": 29341,
+          "nonfinite": 0,
+          "min": 19.0,
+          "max": 28.5,
+          "quantiles": {
+            "q01": 20.5,
+            "q25": 21.5,
+            "q50": 21.5,
+            "q75": 23.3,
+            "q99": 25.5
+          },
+          "unique_measurement_times": 13800,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Light Volatile Organic Compounds": {
+          "count": 29341,
+          "nonfinite": 0,
+          "min": 0.0,
+          "max": 729.0,
+          "quantiles": {
+            "q01": 0.0,
+            "q25": 0.0,
+            "q50": 1.0,
+            "q75": 1.0,
+            "q99": 115.0
+          },
+          "unique_measurement_times": 13800,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 1": {
+          "count": 29341,
+          "nonfinite": 0,
+          "min": 0.0,
+          "max": 73.0,
+          "quantiles": {
+            "q01": 0.0,
+            "q25": 1.0,
+            "q50": 4.0,
+            "q75": 4.0,
+            "q99": 31.0
+          },
+          "unique_measurement_times": 13800,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 4": {
+          "count": 29341,
+          "nonfinite": 0,
+          "min": 0.0,
+          "max": 81.0,
+          "quantiles": {
+            "q01": 0.0,
+            "q25": 4.0,
+            "q50": 7.0,
+            "q75": 7.0,
+            "q99": 37.0
+          },
+          "unique_measurement_times": 13800,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 2.5": {
+          "count": 29341,
+          "nonfinite": 0,
+          "min": 0.0,
+          "max": 79.0,
+          "quantiles": {
+            "q01": 0.0,
+            "q25": 3.0,
+            "q50": 6.0,
+            "q75": 6.0,
+            "q99": 34.0
+          },
+          "unique_measurement_times": 13800,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 10": {
+          "count": 29341,
+          "nonfinite": 0,
+          "min": 0.0,
+          "max": 83.0,
+          "quantiles": {
+            "q01": 0.0,
+            "q25": 4.0,
+            "q50": 7.0,
+            "q75": 7.0,
+            "q99": 37.0
+          },
+          "unique_measurement_times": 13800,
+          "conflicting_duplicate_timestamps": 0
+        }
+      }
+    },
+    "6012002000227": {
+      "records": 21363,
+      "unique_measurement_times": 1,
+      "duplicate_measurement_times": 21362,
+      "duplicate_payloads": 21361,
+      "bad_payloads": 0,
+      "measurement_start_utc": "2023-12-11T05:07:53+00:00",
+      "measurement_end_utc": "2023-12-11T05:07:53+00:00",
+      "record_created_start": "2024-05-01 00:08:47.303613+10",
+      "record_created_end": "2024-10-10 15:55:44.036588+11",
+      "measurement_month_counts_utc": {
+        "2023-12": 21363
+      },
+      "cadence_seconds": null,
+      "location_matches": [],
+      "variables": {
+        "Battery": {
+          "count": 21363,
+          "nonfinite": 0,
+          "min": 4.1875,
+          "max": 4.1875,
+          "quantiles": {
+            "q01": 4.1875,
+            "q25": 4.1875,
+            "q50": 4.1875,
+            "q75": 4.1875,
+            "q99": 4.1875
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Carbon dioxide": {
+          "count": 21363,
+          "nonfinite": 0,
+          "min": 666.0,
+          "max": 666.0,
+          "quantiles": {
+            "q01": 666.0,
+            "q25": 666.0,
+            "q50": 666.0,
+            "q75": 666.0,
+            "q99": 666.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Humidity": {
+          "count": 21363,
+          "nonfinite": 0,
+          "min": 69.0,
+          "max": 69.0,
+          "quantiles": {
+            "q01": 69.0,
+            "q25": 69.0,
+            "q50": 69.0,
+            "q75": 69.0,
+            "q99": 69.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Formaldehyde": {
+          "count": 7800,
+          "nonfinite": 0,
+          "min": 4.0,
+          "max": 4.0,
+          "quantiles": {
+            "q01": 4.0,
+            "q25": 4.0,
+            "q50": 4.0,
+            "q75": 4.0,
+            "q99": 4.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Pressure": {
+          "count": 21363,
+          "nonfinite": 0,
+          "min": 1011.0,
+          "max": 1011.0,
+          "quantiles": {
+            "q01": 1011.0,
+            "q25": 1011.0,
+            "q50": 1011.0,
+            "q75": 1011.0,
+            "q99": 1011.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Temperature": {
+          "count": 21363,
+          "nonfinite": 0,
+          "min": 24.0,
+          "max": 24.0,
+          "quantiles": {
+            "q01": 24.0,
+            "q25": 24.0,
+            "q50": 24.0,
+            "q75": 24.0,
+            "q99": 24.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Light Volatile Organic Compounds": {
+          "count": 21363,
+          "nonfinite": 0,
+          "min": 15.0,
+          "max": 15.0,
+          "quantiles": {
+            "q01": 15.0,
+            "q25": 15.0,
+            "q50": 15.0,
+            "q75": 15.0,
+            "q99": 15.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 1": {
+          "count": 21363,
+          "nonfinite": 0,
+          "min": 3.0,
+          "max": 3.0,
+          "quantiles": {
+            "q01": 3.0,
+            "q25": 3.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q99": 3.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 4": {
+          "count": 21363,
+          "nonfinite": 0,
+          "min": 3.0,
+          "max": 3.0,
+          "quantiles": {
+            "q01": 3.0,
+            "q25": 3.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q99": 3.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 2.5": {
+          "count": 21363,
+          "nonfinite": 0,
+          "min": 3.0,
+          "max": 3.0,
+          "quantiles": {
+            "q01": 3.0,
+            "q25": 3.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q99": 3.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        },
+        "Particulate matter 10": {
+          "count": 21363,
+          "nonfinite": 0,
+          "min": 3.0,
+          "max": 3.0,
+          "quantiles": {
+            "q01": 3.0,
+            "q25": 3.0,
+            "q50": 3.0,
+            "q75": 3.0,
+            "q99": 3.0
+          },
+          "unique_measurement_times": 1,
+          "conflicting_duplicate_timestamps": 0
+        }
+      }
+    }
+  }
+}

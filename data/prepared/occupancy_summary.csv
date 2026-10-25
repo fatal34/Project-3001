@@ -1,0 +1,6 @@
+floorspace_id,csv_rows,collected_start,collected_end,headcount_min,headcount_max,missing_or_nonfinite_headcounts,negative_headcounts,workbook_match_count,mapping_status,used_for_modelling
+0f3f37f8-0335-41e0-ae87-a1d677dfc7d7,2169461,2023-11-24 00:37:32+11,2026-04-22 23:02:18+10,0.0,40.0,0,0,0,workbook_explicitly_incorrect,False
+227f1068-9e41-469f-bef0-275f27a0bdba,1500394,2024-03-03 15:06:30+11,2026-04-22 22:09:42+10,0.0,38.0,0,0,2,workbook_explicitly_incorrect,False
+3e5a14df-4b14-4ea5-bb9d-46577c6dc9c8,1551583,2024-05-01 00:00:16+10,2024-12-30 23:01:56+11,0.0,36.0,0,0,0,workbook_explicitly_incorrect,False
+941f0352-bb69-47d0-a9c5-ac29eb4f7319,1975423,2023-11-24 00:36:52+11,2026-04-22 23:02:38+10,0.0,15.0,0,0,0,workbook_explicitly_incorrect,False
+cca1ac3e-f81f-4ebb-aa2b-8b0bf3e9e53b,1894871,2024-03-03 15:06:30+11,2026-04-22 22:54:50+10,0.0,72.0,0,0,2,workbook_explicitly_incorrect,False

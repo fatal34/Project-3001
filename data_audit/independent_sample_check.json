@@ -1,0 +1,71 @@
+{
+  "selection": "Five primary sensor unique measurement times sampled by random.Random(3001), independently read through csv/json without importing preparation code. All matching raw rows were checked.",
+  "checks": [
+    {
+      "sensor_id": "6012002000869",
+      "time_s": 1710930306,
+      "time_utc": "2024-03-20T10:25:06+00:00",
+      "co2_ppm": 444.0,
+      "temperature_c": 23.5,
+      "humidity_rh_percent": 33.0,
+      "matching_raw_database_row_ids": [
+        "89767"
+      ],
+      "ingest_count_verified": true,
+      "all_three_variables_match": true
+    },
+    {
+      "sensor_id": "6012002000869",
+      "time_s": 1712477115,
+      "time_utc": "2024-04-07T08:05:15+00:00",
+      "co2_ppm": 434.0,
+      "temperature_c": 23.0,
+      "humidity_rh_percent": 57.0,
+      "matching_raw_database_row_ids": [
+        "170896"
+      ],
+      "ingest_count_verified": true,
+      "all_three_variables_match": true
+    },
+    {
+      "sensor_id": "6012002000869",
+      "time_s": 1713118515,
+      "time_utc": "2024-04-14T18:15:15+00:00",
+      "co2_ppm": 469.0,
+      "temperature_c": 21.5,
+      "humidity_rh_percent": 48.0,
+      "matching_raw_database_row_ids": [
+        "204556"
+      ],
+      "ingest_count_verified": true,
+      "all_three_variables_match": true
+    },
+    {
+      "sensor_id": "6012002000869",
+      "time_s": 1714099522,
+      "time_utc": "2024-04-26T02:45:22+00:00",
+      "co2_ppm": 537.0,
+      "temperature_c": 23.5,
+      "humidity_rh_percent": 41.0,
+      "matching_raw_database_row_ids": [
+        "256021"
+      ],
+      "ingest_count_verified": true,
+      "all_three_variables_match": true
+    },
+    {
+      "sensor_id": "6012002000869",
+      "time_s": 1716795335,
+      "time_utc": "2024-05-27T07:35:35+00:00",
+      "co2_ppm": 444.0,
+      "temperature_c": 22.5,
+      "humidity_rh_percent": 36.0,
+      "matching_raw_database_row_ids": [
+        "397475"
+      ],
+      "ingest_count_verified": true,
+      "all_three_variables_match": true
+    }
+  ],
+  "all_passed": true
+}

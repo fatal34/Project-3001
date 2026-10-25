@@ -1,0 +1,72 @@
+[
+  {
+    "path": "5EnvSensor_MayToDec2024_180kRows.zip",
+    "bytes": 7385301,
+    "excluded_example": false,
+    "sha256": "046c9fbb1f8feb9c62059ca3a251f54710413d2b5bdbcb8cab513700c4f66d97"
+  },
+  {
+    "path": "5occupancySensor_MayToDec2024_9MRows.zip",
+    "bytes": 84859690,
+    "excluded_example": false,
+    "sha256": "530ba9b5b6f58d5409f0f4838fe44750e663e289b26034a2ad7c122e647b20e3"
+  },
+  {
+    "path": "Example Data (Do not use)/Detailed_14_07_26 - 17_07_26.csv",
+    "bytes": 122765986,
+    "excluded_example": true,
+    "sha256": "1343b625e78c24c44a279d716b63da43068a398dd9fd701373d0607b51c63928",
+    "first_csv_row_only": [
+      "14/07/2026",
+      "15:25:07.560",
+      "7",
+      "20.809",
+      "-15.756",
+      "1.364"
+    ]
+  },
+  {
+    "path": "Example Data (Do not use)/Env_data_MSI_Lab - 30-07-2025_19-12-2025.csv",
+    "bytes": 225227,
+    "excluded_example": true,
+    "sha256": "39e6e2f7e1347a1bb5156b8b65871e6eeae1b770aa29b5f46767ea4aa2481b55",
+    "first_csv_row_only": [
+      "time",
+      "Pressure (mb)",
+      "Temperature (°C)",
+      "Humidity (RH %)",
+      "CO2 (ppm)",
+      "LVOC (ppb)",
+      "Formaldehyde (µg/m3)"
+    ]
+  },
+  {
+    "path": "Example Data (Do not use)/Map_XY.png",
+    "bytes": 1057598,
+    "excluded_example": true,
+    "sha256": "09c668d76f42af2e8a2f2971ca8657c0669d355cbfa936830e672597825e979f"
+  },
+  {
+    "path": "Example Data (Do not use)/PMV_07_25 - 04_26.csv",
+    "bytes": 216213479,
+    "excluded_example": true,
+    "sha256": "f0d3978b5e6a63ce8dd856230cb5e67a7a07a981bc95176471e06838301b2bcf",
+    "first_csv_row_only": [
+      "28/07/2025",
+      "14:20:38",
+      "1",
+      "24.81",
+      "3.352",
+      "1.133",
+      "0.2",
+      "3",
+      "8"
+    ]
+  },
+  {
+    "path": "Sensor ID and Locations.xlsx",
+    "bytes": 15370,
+    "excluded_example": false,
+    "sha256": "b6af6144efb8f4cb98be279bee2ef03bb656881f3a848f6620d0dcb6f24e9805"
+  }
+]
