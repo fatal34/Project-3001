@@ -20,7 +20,6 @@ The separate, unmapped secondary sensor exposes a limit: at six hidden readings,
 | Tests and generated report | [tests](tests), [reports/test_report.html](reports/test_report.html) |
 | Prepared data and complete source audit | [data/prepared](data/prepared), [data_audit](data_audit) |
 | Frozen choice, metrics and scientific figures | [results](results), [study protocol](notes/study_protocol.md) |
-| Editable slides, PDF handout, script and walkthrough | [presentation](presentation) |
 
 ## Install and reproduce
 
